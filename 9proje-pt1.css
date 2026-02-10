@@ -1,0 +1,200 @@
+* {
+
+    
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+     
+}
+
+
+.fundo_section {
+display: inline;
+    width: 41vw;
+    height: 100vh;
+    background-color: #F2F2F2;
+    position: absolute;
+    right: -1000px;
+    left: 67.11%;
+}
+
+header {
+    position: relative;
+    left: 53px;
+    top: 24px;
+    display: block;
+
+
+
+}
+
+.link_header {
+    display: inline-block;
+    text-transform: capitalize;
+     transition:  0.3s ease, color 0.3s ease;
+    padding: 0px 41px 10px 0px;
+    color: #5D5D7D;
+    font-family: "Oswald";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    
+
+   
+
+
+
+
+
+}
+.home{
+    padding: 0 0 0 8px;
+}
+
+.link_header:hover {
+    transform: scale(1.2);
+    color: #5D5D7D;
+    opacity: 0.6;
+}
+.link_header:active {
+    transform: scale(1);
+    color: #5D5D7D;
+    opacity: 0.3;
+}
+
+.celular {
+    position: absolute;
+    bottom: 123px;
+    left: 22.8px;
+}
+
+.moça {
+    height: 399px;
+    width: 107px;
+    display: block;
+    position: absolute;
+    left: -150px;
+    bottom: 123px;
+    z-index: 1;
+}
+.oii{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: blue;
+}
+article {
+    width: 60%;
+    display: inline-block;
+    height: 100%;
+
+}
+
+.info {
+
+    display: block;
+    position: absolute;
+    bottom: 123px;
+    left: 136px;
+    width: 550px;
+    height:570px;
+    padding-left:50px ;
+
+}
+
+h1 {
+    text-transform: capitalize;
+    color: #5D5D7D;
+    height: 171.5px;
+    width: 380px;
+    font-family: 'Oswald';
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    color: rgba(93, 93, 125, 1);
+
+    color: rgba(93, 93, 125, 1);
+    font-family: 'Oswald';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+button {
+     transition:  0.3s ease, color 0.3s ease;
+    width: 269px;
+    height: 62px;
+    border-radius: 40px;
+    background-color: rgba(148, 153, 234, 1);
+    font-size: 24px;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    cursor: pointer;padding-left: 10px;
+
+}
+button:hover{
+opacity: 0.8;
+}
+button:active{
+    opacity: 0.5;
+}
+
+@media(max-width: 900px){
+ .info{
+    position:relative;
+    top: 20px;
+    display: block;
+    text-align: center;
+ }  
+ h1{
+    font-size: 55px;
+    align-items: center;
+    width: auto;
+    
+ }
+ p{
+    font-size: 25px;
+ }
+ .fundo_section{
+    position:static;
+    display:block;
+    width: 100%;
+    height: auto;
+   justify-items: center;
+   padding: 50px;
+
+ }
+ .celular{
+    position: relative;
+    display: block;
+    justify-items: center;
+    margin: 0 auto;
+padding: 0;
+    left: 0px;  
+    bottom: -0px;
+ }
+ .moça{
+    position: absolute;
+display: inline;
+    left: 100px;
+    bottom: -430px;
+ }
+ button{
+    margin-top: 20px; 
+}
+.link_header{
+    display: none;
+}
+}
